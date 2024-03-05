@@ -2,6 +2,6 @@
 return {
     "nyoom-engineering/nyoom.nvim"
     config = function()
-        require("nyoom").load()
+        require("nyoom").setup({})
     end
 }
