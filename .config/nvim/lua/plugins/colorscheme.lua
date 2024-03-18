@@ -1,7 +1,7 @@
 -- luachech: ignore vim
 return {
-    "nyoom-engineering/nyoom.nvim"
+    "catppuccin/nvim"
     config = function()
-        require("nyoom").setup({})
+        require("catppucin").load(mocha)
     end
 }
