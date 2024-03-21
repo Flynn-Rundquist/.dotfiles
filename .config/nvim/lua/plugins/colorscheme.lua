@@ -1,2 +1,7 @@
 -- luachech: ignore vim
-return require "catppuccin.utils.lualine" "mocha"
+return {
+    "catppuccin/nvim"
+    config = function()
+        require "catppuccin.utils.lualine" "mocha"
+    end
+}
