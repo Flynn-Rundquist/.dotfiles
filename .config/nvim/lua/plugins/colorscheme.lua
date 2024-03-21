@@ -2,6 +2,6 @@
 return {
     "catppuccin/nvim"
     config = function()
-        require "catppuccin.utils.lualine" "mocha"
+        require(""catppuccin.utils.lualine").load(mocha)
     end
 }
